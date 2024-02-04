@@ -1,0 +1,43 @@
+# Ignore build and temp folders
+/Binaries/
+/Build/
+/Intermediate/
+/Packaged/
+/Saved/
+/Releases/
+
+# ignore subdirectories but not top level files
+/Content/*/
+
+# Ignore Plugins build and temp folders
+/Plugins/**/Binaries
+/Plugins/**/Intermediate
+# ignore subdirectories but not top level files
+/Plugins/**/Content/*/
+
+
+# Windows
+ehthumbs.db
+Thumbs.db
+
+# Mac OS X
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# Visual Studio
+.vs
+.vscode

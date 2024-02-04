@@ -1,0 +1,43 @@
+{
+	"fileVersion": 14,
+	"versionSuffix": "",
+	"title": "MyVerseProject",
+	"description": "",
+	"keyArt": "Resources/Icon256.png",
+	"docsUrl": "",
+	"kind": "Island",
+	"templateCategory": "UserGenerated",
+	"compatibilityVersion": "28.10",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"plugins": [
+		{
+			"name": "MyVerseProject",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 16,
+			"maxTeamCount": 1,
+			"maxTeamSize": 16,
+			"maxSocialPartySize": 16,
+			"allowJoinInProgress": false,
+			"allowSquadFillOption": true,
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "30c4c4a6-4fe5-9140-45c4-bca81e2cc4d8",
+		"projectVersePath": "",
+		"modules":
+		{
+			"MyVerseProject": "76844b0b-4486-fc67-59dd-408611a5c50e"
+		}
+	}
+}
